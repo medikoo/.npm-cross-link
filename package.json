@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "dev-package-install-medikoo",
+  "version": "0.0.0",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "dependencies": {
+    "dev-package-install": "1",
+    "fs2": "^0.2.9",
+    "log4": "^3.0.1",
+    "memoizee": "^0.4.14",
+    "@octokit/rest": "^15.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5",
+    "eslint-config-medikoo": "^1.41"
+  },
+  "eslintConfig": {
+    "extends": "medikoo",
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "overrides": [
+      {
+        "files": "lib/setup-package.js",
+        "rules": {
+          "no-await-in-loop": "off"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path=.gitignore ."
+  },
+  "license": "ISC"
+}
