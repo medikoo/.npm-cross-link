@@ -1,3 +1,3 @@
-# .dev-package-install
+# .dev-package
 
 Medikoo's packages resolver

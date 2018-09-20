@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "dev-package-install-medikoo",
+  "name": "dev-package-medikoo",
   "version": "0.0.0",
   "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "dependencies": {
-    "dev-package-install": "1",
+    "dev-package": "1",
     "fs2": "^0.2.9",
     "log4": "^3.0.1",
     "memoizee": "^0.4.14",
