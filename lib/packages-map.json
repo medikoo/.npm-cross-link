@@ -1,0 +1,365 @@
+{
+  "ag-sorted": {
+    "repoUrl": "git@github.com:medikoo/ag-sorted.git"
+  },
+  "aws-step-functions-inspector": {
+    "repoUrl": "git@github.com:medikoo/aws-step-functions-inspector.git"
+  },
+  "bespoke-history": {
+    "repoUrl": "git@github.com:medikoo/bespoke-history.git"
+  },
+  "bespoke-notes": {
+    "repoUrl": "git@github.com:medikoo/bespoke-notes.git"
+  },
+  "bespoke-substeps": {
+    "repoUrl": "git@github.com:medikoo/bespoke-substeps.git"
+  },
+  "bespoke-sync": {
+    "repoUrl": "git@github.com:medikoo/bespoke-sync.git"
+  },
+  "browserstack-tape-runner": {
+    "repoUrl": "git@github.com:medikoo/browserstack-tape-runner.git"
+  },
+  "cjs-module": {
+    "repoUrl": "git@github.com:medikoo/cjs-module.git"
+  },
+  "cjs-vs-amd-benchmark": {
+    "repoUrl": "git@github.com:medikoo/cjs-vs-amd-benchmark.git"
+  },
+  "cli-color": {
+    "repoUrl": "git@github.com:medikoo/cli-color.git"
+  },
+  "cli-progress-footer": {
+    "repoUrl": "git@github.com:medikoo/cli-progress-footer.git"
+  },
+  "cli-sprintf-format": {
+    "repoUrl": "git@github.com:medikoo/cli-sprintf-format.git"
+  },
+  "clock": {
+    "repoUrl": "git@github.com:medikoo/clock.git"
+  },
+  "controller-router": {
+    "repoUrl": "git@github.com:medikoo/controller-router.git"
+  },
+  "css-aid": {
+    "repoUrl": "git@github.com:medikoo/css-aid.git"
+  },
+  "csslint-next": {
+    "repoUrl": "git@github.com:medikoo/csslint-next.git"
+  },
+  "d": {
+    "repoUrl": "git@github.com:medikoo/d.git"
+  },
+  "data-fragment": {
+    "repoUrl": "git@github.com:medikoo/data-fragment.git"
+  },
+  "date-from-timezone": {
+    "repoUrl": "git@github.com:medikoo/date-from-timezone.git"
+  },
+  "dbjs": {
+    "repoUrl": "git@github.com:medikoo/dbjs.git"
+  },
+  "dbjs-cluster": {
+    "repoUrl": "git@github.com:medikoo/dbjs-cluster.git"
+  },
+  "dbjs-copy": {
+    "repoUrl": "git@github.com:medikoo/dbjs-copy.git"
+  },
+  "dbjs-dom": {
+    "repoUrl": "git@github.com:medikoo/dbjs-dom.git"
+  },
+  "dbjs-domjs": {
+    "repoUrl": "git@github.com:medikoo/dbjs-domjs.git"
+  },
+  "dbjs-ext": {
+    "repoUrl": "git@github.com:medikoo/dbjs-ext.git"
+  },
+  "dbjs-file": {
+    "repoUrl": "git@github.com:medikoo/dbjs-file.git"
+  },
+  "dbjs-fragment": {
+    "repoUrl": "git@github.com:medikoo/dbjs-fragment.git"
+  },
+  "dbjs-level": {
+    "repoUrl": "git@github.com:medikoo/dbjs-level.git"
+  },
+  "dbjs-log": {
+    "repoUrl": "git@github.com:medikoo/dbjs-log.git"
+  },
+  "dbjs-mongo": {
+    "repoUrl": "git@github.com:medikoo/dbjs-mongo.git"
+  },
+  "dbjs-ms-sql": {
+    "repoUrl": "git@github.com:medikoo/dbjs-ms-sql.git"
+  },
+  "dbjs-persistence": {
+    "repoUrl": "git@github.com:medikoo/dbjs-persistence.git"
+  },
+  "dbjs-reduce": {
+    "repoUrl": "git@github.com:medikoo/dbjs-reduce.git"
+  },
+  "debug-ext": {
+    "repoUrl": "git@github.com:medikoo/debug-ext.git"
+  },
+  "deferred": {
+    "repoUrl": "git@github.com:medikoo/deferred.git"
+  },
+  "dom-ext": {
+    "repoUrl": "git@github.com:medikoo/dom-ext.git"
+  },
+  "domjs": {
+    "repoUrl": "git@github.com:medikoo/domjs.git"
+  },
+  "domjs-ext": {
+    "repoUrl": "git@github.com:medikoo/domjs-ext.git"
+  },
+  "domjs-reactive-script": {
+    "repoUrl": "git@github.com:medikoo/domjs-reactive-script.git"
+  },
+  "domjs-site-tree": {
+    "repoUrl": "git@github.com:medikoo/domjs-site-tree.git"
+  },
+  "duration": {
+    "repoUrl": "git@github.com:medikoo/duration.git"
+  },
+  "el-index": {
+    "repoUrl": "git@github.com:medikoo/el-index.git"
+  },
+  "engine-sniff": {
+    "repoUrl": "git@github.com:medikoo/engine-sniff.git"
+  },
+  "error-create": {
+    "repoUrl": "git@github.com:medikoo/error-create.git"
+  },
+  "es-async": {
+    "repoUrl": "git@github.com:medikoo/es-async.git"
+  },
+  "es3-ext": {
+    "repoUrl": "git@github.com:medikoo/es3-ext.git"
+  },
+  "es5-ext": {
+    "repoUrl": "git@github.com:medikoo/es5-ext.git"
+  },
+  "es5-fix": {
+    "repoUrl": "git@github.com:medikoo/es5-fix.git"
+  },
+  "es6-iterator": {
+    "repoUrl": "git@github.com:medikoo/es6-iterator.git"
+  },
+  "es6-map": {
+    "repoUrl": "git@github.com:medikoo/es6-map.git"
+  },
+  "es6-set": {
+    "repoUrl": "git@github.com:medikoo/es6-set.git"
+  },
+  "es6-symbol": {
+    "repoUrl": "git@github.com:medikoo/es6-symbol.git"
+  },
+  "es6-template-strings": {
+    "repoUrl": "git@github.com:medikoo/es6-template-strings.git"
+  },
+  "es6-weak-map": {
+    "repoUrl": "git@github.com:medikoo/es6-weak-map.git"
+  },
+  "eslint-config-medikoo": {
+    "repoUrl": "git@github.com:medikoo/eslint-config-medikoo.git"
+  },
+  "eslint-config-medikoo-es3": {
+    "repoUrl": "git@github.com:medikoo/eslint-config-medikoo-es3.git"
+  },
+  "eslint-config-medikoo-es5": {
+    "repoUrl": "git@github.com:medikoo/eslint-config-medikoo-es5.git"
+  },
+  "esniff": {
+    "repoUrl": "git@github.com:medikoo/esniff.git"
+  },
+  "event-emitter": {
+    "repoUrl": "git@github.com:medikoo/event-emitter.git"
+  },
+  "event-source": {
+    "repoUrl": "git@github.com:medikoo/event-source.git"
+  },
+  "exec-batch": {
+    "repoUrl": "git@github.com:medikoo/exec-batch.git"
+  },
+  "fast-key": {
+    "repoUrl": "git@github.com:medikoo/fast-key.git"
+  },
+  "find-requires": {
+    "repoUrl": "git@github.com:medikoo/find-requires.git"
+  },
+  "fs2": {
+    "repoUrl": "git@github.com:medikoo/fs2.git"
+  },
+  "git-branch-deploy": {
+    "repoUrl": "git@github.com:medikoo/git-branch-deploy.git"
+  },
+  "grand-stack-trace": {
+    "repoUrl": "git@github.com:medikoo/grand-stack-trace.git"
+  },
+  "html-dom-event-ext": {
+    "repoUrl": "git@github.com:medikoo/html-dom-event-ext.git"
+  },
+  "html-dom-ext": {
+    "repoUrl": "git@github.com:medikoo/html-dom-ext.git"
+  },
+  "html-site-tree": {
+    "repoUrl": "git@github.com:medikoo/html-site-tree.git"
+  },
+  "html-template-to-dom": {
+    "repoUrl": "git@github.com:medikoo/html-template-to-dom.git"
+  },
+  "i18n2": {
+    "repoUrl": "git@github.com:medikoo/i18n2.git"
+  },
+  "i18n2-md-to-dom": {
+    "repoUrl": "git@github.com:medikoo/i18n2-md-to-dom.git"
+  },
+  "irc-notifier": {
+    "repoUrl": "git@github.com:medikoo/irc-notifier.git"
+  },
+  "log4": {
+    "repoUrl": "git@github.com:medikoo/log4.git"
+  },
+  "log4-aws-lambda": {
+    "repoUrl": "git@github.com:medikoo/log4-aws-lambda.git"
+  },
+  "log4-nodejs": {
+    "repoUrl": "git@github.com:medikoo/log4-nodejs.git"
+  },
+  "lru-queue": {
+    "repoUrl": "git@github.com:medikoo/lru-queue.git"
+  },
+  "memoizee": {
+    "repoUrl": "git@github.com:medikoo/memoizee.git"
+  },
+  "microtime-x": {
+    "repoUrl": "git@github.com:medikoo/microtime-x.git"
+  },
+  "webmake": {
+    "repoUrl": "git@github.com:medikoo/modules-webmake.git"
+  },
+  "movejs": {
+    "repoUrl": "git@github.com:medikoo/movejs.git"
+  },
+  "next-tick": {
+    "repoUrl": "git@github.com:medikoo/next-tick.git"
+  },
+  "next": {
+    "repoUrl": "git@github.com:medikoo/node-ext.git"
+  },
+  "observable-array": {
+    "repoUrl": "git@github.com:medikoo/observable-array.git"
+  },
+  "observable-map": {
+    "repoUrl": "git@github.com:medikoo/observable-map.git"
+  },
+  "observable-multi-set": {
+    "repoUrl": "git@github.com:medikoo/observable-multi-set.git"
+  },
+  "observable-set": {
+    "repoUrl": "git@github.com:medikoo/observable-set.git"
+  },
+  "observable-value": {
+    "repoUrl": "git@github.com:medikoo/observable-value.git"
+  },
+  "oldnabble-group-reader": {
+    "repoUrl": "git@github.com:medikoo/oldnabble-group-reader.git"
+  },
+  "onejs.org": {
+    "repoUrl": "git@github.com:medikoo/onejs.org.git"
+  },
+  "path2": {
+    "repoUrl": "git@github.com:medikoo/path2.git"
+  },
+  "plain-promise": {
+    "repoUrl": "git@github.com:medikoo/plain-promise.git"
+  },
+  "post-controller-router": {
+    "repoUrl": "git@github.com:medikoo/post-controller-router.git"
+  },
+  "process-utils": {
+    "repoUrl": "git@github.com:medikoo/process-utils.git"
+  },
+  "punycode2": {
+    "repoUrl": "git@github.com:medikoo/punycode2.git"
+  },
+  "querystring2": {
+    "repoUrl": "git@github.com:medikoo/querystring2.git"
+  },
+  "reactive-table": {
+    "repoUrl": "git@github.com:medikoo/reactive-table.git"
+  },
+  "reactive-way": {
+    "repoUrl": "git@github.com:medikoo/reactive-way.git"
+  },
+  "serverless-plugin-dynamodb-autoscaling": {
+    "repoUrl": "git@github.com:medikoo/serverless-plugin-dynamodb-autoscaling.git"
+  },
+  "serverless-plugin-reducer": {
+    "repoUrl": "git@github.com:medikoo/serverless-plugin-reducer.git"
+  },
+  "serverless-plugin-transpiler": {
+    "repoUrl": "git@github.com:medikoo/serverless-plugin-transpiler.git"
+  },
+  "serverless-plugin-vpc-eni-cleanup": {
+    "repoUrl": "git@github.com:medikoo/serverless-plugin-vpc-eni-cleanup.git"
+  },
+  "set-collection": {
+    "repoUrl": "git@github.com:medikoo/set-collection.git"
+  },
+  "site-tree": {
+    "repoUrl": "git@github.com:medikoo/site-tree.git"
+  },
+  "site-tree-router": {
+    "repoUrl": "git@github.com:medikoo/site-tree-router.git"
+  },
+  "split-utf8-file": {
+    "repoUrl": "git@github.com:medikoo/split-utf8-file.git"
+  },
+  "sprintf-kit": {
+    "repoUrl": "git@github.com:medikoo/sprintf-kit.git"
+  },
+  "tad": {
+    "repoUrl": "git@github.com:medikoo/tad.git"
+  },
+  "tape-index": {
+    "repoUrl": "git@github.com:medikoo/tape-index.git"
+  },
+  "time-uuid": {
+    "repoUrl": "git@github.com:medikoo/time-uuid.git"
+  },
+  "timers-ext": {
+    "repoUrl": "git@github.com:medikoo/timers-ext.git"
+  },
+  "url3": {
+    "repoUrl": "git@github.com:medikoo/url3.git"
+  },
+  "webmake-coffee": {
+    "repoUrl": "git@github.com:medikoo/webmake-coffee.git"
+  },
+  "webmake-yaml": {
+    "repoUrl": "git@github.com:medikoo/webmake-yaml.git"
+  },
+  "xlint": {
+    "repoUrl": "git@github.com:medikoo/xlint.git"
+  },
+  "xlint-css-sublime": {
+    "repoUrl": "git@github.com:medikoo/xlint-css-sublime.git"
+  },
+  "xlint-csslint": {
+    "repoUrl": "git@github.com:medikoo/xlint-csslint.git"
+  },
+  "xlint-csslint-next": {
+    "repoUrl": "git@github.com:medikoo/xlint-csslint-next.git"
+  },
+  "xlint-jslint": {
+    "repoUrl": "git@github.com:medikoo/xlint-jslint.git"
+  },
+  "xlint-jslint-medikoo": {
+    "repoUrl": "git@github.com:medikoo/xlint-jslint-medikoo.git"
+  },
+  "xlint-sublime": {
+    "repoUrl": "git@github.com:medikoo/xlint-sublime.git"
+  }
+}
