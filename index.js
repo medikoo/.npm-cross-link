@@ -14,7 +14,8 @@ module.exports = (async () => ({
 		}
 	})(),
 	hooks: {
-		afterPackageInstall: (packageName, { packagesPath }) =>
-			setupPrettier(packagesPath, resolve(packagesPath, packageName))
-	}
+		afterPackageInstall: (packageName, { packagesPath }, options) =>
+			setupPrettier(packagesPath, resolve(packagesPath, packageName), options)
+	},
+	userDependencies: ["prettier"]
 }))();
