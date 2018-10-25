@@ -1,7 +1,6 @@
 "use strict";
 
-const { resolve }          = require("path")
-    , generatePackageNames = require("./lib/generate-packages-meta")
+const generatePackageNames = require("./lib/generate-packages-meta")
     , setupPrettier        = require("./lib/setup-prettier");
 
 module.exports = (async () => ({
@@ -13,9 +12,6 @@ module.exports = (async () => ({
 			return require("./lib/packages-map");
 		}
 	})(),
-	hooks: {
-		afterPackageInstall: (packageName, { packagesPath }, options) =>
-			setupPrettier(packagesPath, resolve(packagesPath, packageName), options)
-	},
+	hooks: { afterPackageInstall: setupPrettier },
 	userDependencies: ["prettier"]
 }))();
