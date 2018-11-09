@@ -1,18 +1,18 @@
 {
   "private": true,
-  "name": "dev-package-medikoo",
+  "name": "npm-cross-link-medikoo",
   "version": "0.0.0",
   "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "dependencies": {
-    "dev-package": "1",
-    "fs2": "^0.2.9",
-    "log4": "^3.0.1",
+    "npm-cross-link": "^1.1.1",
+    "fs2": "^0.2.20",
+    "log4": "^3.1",
     "memoizee": "^0.4.14",
-    "@octokit/rest": "^15.11.1"
+    "@octokit/rest": "^15.16.1"
   },
   "devDependencies": {
-    "eslint": "^5.5",
-    "eslint-config-medikoo": "^1.41"
+    "eslint": "^5.8",
+    "eslint-config-medikoo": "^1.44"
   },
   "eslintConfig": {
     "extends": "medikoo",
