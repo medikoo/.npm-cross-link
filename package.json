@@ -9,7 +9,7 @@
     "fs2": "^0.3",
     "log": "^3.2",
     "memoizee": "^0.4.14",
-    "@octokit/rest": "^15.16.1"
+    "@octokit/rest": "^16.8"
   },
   "devDependencies": {
     "eslint": "^5.12",
