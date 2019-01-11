@@ -7,7 +7,7 @@
   "dependencies": {
     "npm-cross-link": "^3.0.2",
     "fs2": "^0.2.20",
-    "log4": "^3.1",
+    "log": "^3.2",
     "memoizee": "^0.4.14",
     "@octokit/rest": "^15.16.1"
   },
