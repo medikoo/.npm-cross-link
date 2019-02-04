@@ -2,6 +2,7 @@
 
 const log                  = require("log").get("npm-cross-link:user").notice
     , generatePackageNames = require("./lib/generate-packages-meta")
+    , setupPreCommitHook   = require("./lib/setup-pre-commit-hook")
     , setupPrettier        = require("./lib/setup-prettier");
 
 const argv = require("minimist")(process.argv.slice(2), { boolean: ["refresh-packages-map"] });
@@ -17,6 +18,9 @@ module.exports = (async () => ({
 		await generatePackageNames();
 		return require("./lib/packages-map");
 	})(),
-	hooks: { afterPackageInstall: setupPrettier },
+	hooks: {
+		afterPackageInstall: (...args) =>
+			Promise.all([setupPrettier(...args), setupPreCommitHook(...args)])
+	},
 	userDependencies: ["prettier"]
 }))();
