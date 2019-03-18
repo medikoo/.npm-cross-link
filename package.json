@@ -1,38 +1,38 @@
 {
-  "private": true,
-  "name": "npm-cross-link-medikoo",
-  "version": "0.0.0",
-  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
-  "repository": "medikoo/.npm-cross-link",
-  "dependencies": {
-    "@octokit/rest": "^16.19.0",
-    "fs2": "^0.3.4",
-    "log": "^4.0.1",
-    "memoizee": "^0.4.14",
-    "minimist": "^1.2.0",
-    "npm-cross-link": "^7.3.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.15.2",
-    "eslint-config-medikoo": "^2.1.1"
-  },
-  "eslintConfig": {
-    "extends": "medikoo",
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "overrides": [
-      {
-        "files": "lib/setup-package.js",
-        "rules": {
-          "no-await-in-loop": "off"
-        }
-      }
-    ]
-  },
-  "scripts": {
-    "lint": "eslint --ignore-path=.gitignore ."
-  },
-  "license": "ISC"
+	"private": true,
+	"name": "npm-cross-link-medikoo",
+	"version": "0.0.0",
+	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+	"repository": "medikoo/.npm-cross-link",
+	"dependencies": {
+		"@octokit/rest": "^16.19.0",
+		"fs2": "^0.3.4",
+		"log": "^4.0.1",
+		"memoizee": "^0.4.14",
+		"minimist": "^1.2.0",
+		"npm-cross-link": "^7.3.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.15.2",
+		"eslint-config-medikoo": "^2.1.1"
+	},
+	"eslintConfig": {
+		"extends": "medikoo",
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"overrides": [
+			{
+				"files": "lib/setup-package.js",
+				"rules": {
+					"no-await-in-loop": "off"
+				}
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint --ignore-path=.gitignore ."
+	},
+	"license": "ISC"
 }
