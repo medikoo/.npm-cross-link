@@ -7,10 +7,10 @@
   "dependencies": {
     "@octokit/rest": "^16.19.0",
     "fs2": "^0.3.4",
-    "log": "^3.2.0",
+    "log": "^4.0.1",
     "memoizee": "^0.4.14",
     "minimist": "^1.2.0",
-    "npm-cross-link": "^5.1.0"
+    "npm-cross-link": "^7.3.0"
   },
   "devDependencies": {
     "eslint": "^5.15.2",
