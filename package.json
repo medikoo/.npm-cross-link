@@ -6,6 +6,7 @@
 	"repository": "medikoo/.npm-cross-link",
 	"dependencies": {
 		"@octokit/rest": "^16.20.0",
+		"es5-ext": "^0.10.49",
 		"fs2": "^0.3.4",
 		"log": "^5.0.0",
 		"memoizee": "^0.4.14",
