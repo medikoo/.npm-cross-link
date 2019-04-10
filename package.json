@@ -5,13 +5,13 @@
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"repository": "medikoo/.npm-cross-link",
 	"dependencies": {
-		"@octokit/rest": "^16.23.3",
+		"@octokit/rest": "^16.23.4",
 		"es5-ext": "^0.10.49",
 		"fs2": "^0.3.4",
 		"log": "^6.0.0",
 		"memoizee": "^0.4.14",
 		"minimist": "^1.2.0",
-		"npm-cross-link": "^7.7.0"
+		"npm-cross-link": "^7.7.1"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
