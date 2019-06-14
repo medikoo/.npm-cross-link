@@ -2,13 +2,12 @@
 # husky
 
 # Hook created by Husky
-#   Version: 1.3.1
-#   At: 2/4/2019, 11:29:30 AM
+#   Version: 2.4.1
+#   At: 6/14/2019, 9:47:18 AM
 #   See: https://github.com/typicode/husky#readme
 
-# From npm package
-#   Name: husky
-#   Directory: /Users/medikoo/npm-packages/tape-index/node_modules/husky
+# From
+#   Directory: /Users/medikoo/npm-packages/cli-color/node_modules/husky
 #   Homepage: https://github.com/typicode/husky#readme
 
 scriptPath="node_modules/husky/run.js"
@@ -16,13 +15,21 @@ hookName=`basename "$0"`
 gitParams="$*"
 
 debug() {
-  [ "${HUSKY_DEBUG}" = "true" ] && echo "husky:debug $1"
+  if [ "${HUSKY_DEBUG}" = "true" ] || [ "${HUSKY_DEBUG}" = "1" ]; then
+    echo "husky:debug $1"
+  fi
 }
 
-debug "$hookName hook started..."
+debug "$hookName hook started"
+
+if [ "${HUSKY_SKIP_HOOKS}" = "true" ] || [ "${HUSKY_SKIP_HOOKS}" = "1" ]; then
+  debug "HUSKY_SKIP_HOOKS is set to ${HUSKY_SKIP_HOOKS}, skipping hook"
+  exit 0
+fi
+
 
 if ! command -v node >/dev/null 2>&1; then
-  echo "Can't find node in PATH, trying to find a node binary on your system"
+  echo "Info: can't find node in PATH, trying to find a node binary on your system"
 fi
 
 if [ -f "$scriptPath" ]; then
@@ -31,7 +38,7 @@ if [ -f "$scriptPath" ]; then
   # fi
   if [ -f ~/.huskyrc ]; then
     debug "source ~/.huskyrc"
-    source ~/.huskyrc
+    . ~/.huskyrc
   fi
   node "$scriptPath" $hookName "$gitParams"
 else
