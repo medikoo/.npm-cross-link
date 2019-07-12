@@ -22,5 +22,6 @@ module.exports = (async () => ({
 		afterPackageInstall: (...args) =>
 			Promise.all([setupPrettier(...args), setupPreCommitHook(...args)])
 	},
-	userDependencies: ["prettier"]
+	userDependencies: ["prettier"],
+	toBeCopiedDependencies: ["webpack"]
 }))();
