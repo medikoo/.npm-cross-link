@@ -6,4 +6,4 @@ Error.stackTraceLimit = Infinity;
 
 process.on("unhandledRejection", reason => { throw reason; });
 
-require("../lib/generate-packages-meta")();
+require("../lib/packages-meta/generate")();
