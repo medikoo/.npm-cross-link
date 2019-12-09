@@ -1,11 +1,11 @@
 "use strict";
 
-const setupHuskyHook      = require("./lib/setup-husky-hook")
+const setupHuskyHooks     = require("./lib/setup-husky-hooks")
     , resolvePackagesMeta = require("./lib/packages-meta");
 
 module.exports = (async () => ({
 	packagesMeta: await (async () => resolvePackagesMeta())(),
-	hooks: { afterPackageInstall: setupHuskyHook },
+	hooks: { afterPackageInstall: setupHuskyHooks },
 	userDependencies: ["prettier"],
 	toBeCopiedDependencies: ["webpack"]
 }))();
