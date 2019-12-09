@@ -1,11 +1,11 @@
 "use strict";
 
-const setupPreCommitHook  = require("./lib/setup-pre-commit-hook")
+const setupHuskyHook      = require("./lib/setup-husky-hook")
     , resolvePackagesMeta = require("./lib/packages-meta");
 
 module.exports = (async () => ({
 	packagesMeta: await (async () => resolvePackagesMeta())(),
-	hooks: { afterPackageInstall: setupPreCommitHook },
+	hooks: { afterPackageInstall: setupHuskyHook },
 	userDependencies: ["prettier"],
 	toBeCopiedDependencies: ["webpack"]
 }))();
