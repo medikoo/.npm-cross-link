@@ -6,6 +6,5 @@ const setupHuskyHooks     = require("./lib/setup-husky-hooks")
 module.exports = (async () => ({
 	packagesMeta: await (async () => resolvePackagesMeta())(),
 	hooks: { afterPackageInstall: setupHuskyHooks },
-	userDependencies: ["prettier"],
 	toBeCopiedDependencies: ["webpack"]
 }))();
