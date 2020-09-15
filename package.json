@@ -5,7 +5,7 @@
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"repository": "medikoo/.npm-cross-link",
 	"dependencies": {
-		"@octokit/rest": "^16.43.2",
+		"@octokit/rest": "^18.0.6",
 		"es5-ext": "^0.10.53",
 		"fs2": "^0.3.8",
 		"log": "^6.0.0",
