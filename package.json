@@ -5,9 +5,9 @@
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"repository": "medikoo/.npm-cross-link",
 	"dependencies": {
-		"@octokit/rest": "^16.43.1",
+		"@octokit/rest": "^16.43.2",
 		"es5-ext": "^0.10.53",
-		"fs2": "^0.3.7",
+		"fs2": "^0.3.8",
 		"log": "^6.0.0",
 		"memoizee": "^0.4.14",
 		"npm-cross-link": "^10.0.0"
@@ -15,8 +15,8 @@
 	"devDependencies": {
 		"eslint": "^6.8.0",
 		"eslint-config-medikoo": "^2.7.0",
-		"husky": "^4.2.3",
-		"lint-staged": "^10.0.7",
+		"husky": "^4.3.0",
+		"lint-staged": "^10.3.0",
 		"prettier-elastic": "^1.19.1"
 	},
 	"husky": {
