@@ -8,6 +8,10 @@ const path                = require("path")
 module.exports = (async () => ({
 	packagesMeta: await (async () => resolvePackagesMeta())(),
 	multiPackageReposMeta: {
+		"serverlessinc/cloud": {
+			repoUrl: "git@github.com:serverlessinc/cloud.git",
+			path: path.resolve(os.homedir(), "Projects/serverless/cloud")
+		},
 		"serverlessinc/platform": {
 			repoUrl: "git@github.com:serverlessinc/platform.git",
 			path: path.resolve(os.homedir(), "Projects/serverless/platform")
