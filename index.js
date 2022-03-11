@@ -14,11 +14,13 @@ module.exports = (async () => ({
 		},
 		"serverless/runtime": {
 			repoUrl: "git@github.com:serverless/runtime.git",
-			path: path.resolve(os.homedir(), "Projects/serverless/runtime")
+			path: path.resolve(os.homedir(), "Projects/serverless/runtime"),
+			branch: "main"
 		},
 		"serverlessinc/cloud": {
 			repoUrl: "git@github.com:serverlessinc/cloud.git",
-			path: path.resolve(os.homedir(), "Projects/serverless/cloud")
+			path: path.resolve(os.homedir(), "Projects/serverless/cloud"),
+			branch: "main"
 		},
 		"serverlessinc/platform": {
 			repoUrl: "git@github.com:serverlessinc/platform.git",
