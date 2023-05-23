@@ -12,9 +12,9 @@ module.exports = (async () => ({
 			repoUrl: "git@github.com:medikoo/serverless-chrome.git",
 			path: path.resolve(os.homedir(), "Projects/serverless/serverless-chrome")
 		},
-		"serverless/runtime": {
-			repoUrl: "git@github.com:serverless/runtime.git",
-			path: path.resolve(os.homedir(), "Projects/serverless/runtime"),
+		"serverless/console": {
+			repoUrl: "git@github.com:serverless/console.git",
+			path: path.resolve(os.homedir(), "Projects/serverless/console"),
 			branch: "main"
 		},
 		"serverlessinc/cloud": {
