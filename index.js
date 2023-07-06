@@ -16,15 +16,6 @@ module.exports = (async () => ({
 			repoUrl: "git@github.com:serverless/console.git",
 			path: path.resolve(os.homedir(), "Projects/serverless/console"),
 			branch: "main"
-		},
-		"serverlessinc/cloud": {
-			repoUrl: "git@github.com:serverlessinc/cloud.git",
-			path: path.resolve(os.homedir(), "Projects/serverless/cloud"),
-			branch: "main"
-		},
-		"serverlessinc/platform": {
-			repoUrl: "git@github.com:serverlessinc/platform.git",
-			path: path.resolve(os.homedir(), "Projects/serverless/platform")
 		}
 	},
 	hooks: { afterPackageInstall: setupHuskyHooks },
